@@ -1,5 +1,5 @@
 /* Service worker: la app abre al instante desde el caché y se actualiza en segundo plano. */
-const CACHE = 'avance-v1.0';
+const CACHE = 'avance-v1.2';
 const ASSETS = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable-512.png', 'icons/apple-touch-icon.png'];
 
 self.addEventListener('install', (e) => {
